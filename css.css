@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-item{
+    display:inline-block;
+    padding: 10px;
+    }
+h1{
+    font-family: 'Sofia', cursive;
+    font-size: 3.0rem;
+}
+body{
+    background-image: url("back.png");
+    background-size: cover;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+img {
+    border: 10px solid #C49BEE;
+    max-width: 100%;
+}
+
+.sin-borde {
+    border: none;
+}
+
+.logo{
+    max-width: 50px;
+}
+  
+div {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+      max-width: 100%;
+    }
+  }
+  
+
+  
+nav{
+    text-align: right;
+}
+
+/**.img-pair {
+    width: 30%;
+  }
+  
+  .img-big {
+    width: 50%;
+  }
+**/  
+.img-fluid {
+    width: 30%
+}
+
+.quinta-imagen{
+    width: 50%;
+    height: auto;
+ }
+ 
+.mismalinea{
+    display: inline-block;
+}
